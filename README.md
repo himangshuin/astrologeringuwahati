@@ -5,6 +5,7 @@
 Based in **Guwahati, Assam**, services are available both **online (WhatsApp & video call)** and offline, making it easy for people across India to connect and receive guidance.
 
 ---
+https://himangshuin.github.io/astrologeringuwahati/
 
 ## 🔮 Our Astrology & Tarot Services
 
