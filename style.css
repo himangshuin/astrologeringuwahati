@@ -133,6 +133,11 @@ h1, h2, h3, h4 { font-family: var(--font-display); color: var(--text); font-weig
 .nav-links > li > a.active::after {
     content: ''; position: absolute; left: 0; right: 0; bottom: -4px; height: 2px; background: var(--gold-bright); border-radius: 2px;
 }
+/* .btn-consult ("Book Session") sits inside .nav-links > li, so the nav
+   link color rule above (higher specificity than .btn-consult alone) was
+   overriding its intended dark text on the gold pill, washing it out. */
+.nav-links li a.btn-consult,
+.nav-links li a.btn-consult:hover { color: #241705; }
 .dropdown-toggle::after { content: ''; }
 
 .has-dropdown { position: relative; }
