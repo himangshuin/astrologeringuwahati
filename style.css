@@ -137,10 +137,18 @@ h1, h2, h3, h4 { font-family: var(--font-display); color: var(--text); font-weig
    link color rule above (higher specificity than .btn-consult alone) was
    overriding its intended dark text on the gold pill, washing it out. */
 .nav-links li a.btn-consult,
-.nav-links li a.btn-consult:hover { color: #241705; }
+.nav-links li a.btn-consult:hover { color: #241705 !important; }
 .dropdown-toggle::after { content: ''; }
 
 .has-dropdown { position: relative; }
+/* Invisible bridge over the gap between the trigger and the floating
+   menu (dropdown-menu sits at top: calc(100% + 14px)) — without this,
+   moving the mouse straight down from the trigger crosses a dead zone
+   that isn't part of .has-dropdown, closing the menu before the mouse
+   reaches it. */
+.has-dropdown::after {
+    content: ''; position: absolute; top: 100%; left: 0; right: 0; height: 18px;
+}
 .dropdown-menu {
     position: absolute; top: calc(100% + 14px); left: -20px; width: 300px;
     background: var(--surface-2); border: 1px solid var(--surface-border); border-radius: var(--radius-md);
