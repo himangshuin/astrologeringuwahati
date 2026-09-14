@@ -2,6 +2,8 @@
 
 **Himu Astrology** is a premium, SEO-focused static astrology website designed to build a strong local and regional search presence for astrology services in **Guwahati, Assam, and across all districts of Assam**.
 
+https://himangshuin.github.io/astrologeringuwahati
+
 The website is built around a modern celestial visual identity with a dark cosmic background, warm gold and rose accents, and elegant **Fraunces + Manrope** typography. Alongside the visual experience, the site is structured for search engines with location-focused content, semantic HTML, internal linking, XML sitemap generation, robots.txt, canonical URLs, FAQs, and structured data.
 
 The primary SEO focus is:
