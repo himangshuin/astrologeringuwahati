@@ -234,8 +234,15 @@ This approach is intended to provide useful geographic context without creating 
 ├── blog.html
 │   └── Astrology blog index
 │
-├── post1.html
-│   └── Individual blog article
+├── blog/
+│   ├── post1.html
+│   ├── numerology-career-path.html
+│   ├── vastu-tips-harmonious-home.html
+│   ├── understanding-your-birth-chart.html
+│   ├── how-to-choose-best-astrologer-guwahati.html
+│   ├── astrologer-consultation-fees-guwahati.html
+│   └── assamese-astrology-rashifal-guide.html
+│       └── Individual blog articles (7 live posts)
 │
 ├── robots.txt
 │   └── Search engine crawling directives
@@ -889,7 +896,9 @@ Examples:
 /
  /locations.html
  /blog.html
- /post1.html
+ /blog/post1.html
+ /blog/numerology-career-path.html
+ /blog/how-to-choose-best-astrologer-guwahati.html
  /districts/best-astrologer-in-barpeta.html
  /districts/best-astrologer-in-jorhat.html
 ```
@@ -950,7 +959,7 @@ and rebuilds:
 index.html
 locations.html
 blog.html
-post1.html
+blog/*.html
 districts/*.html
 sitemap.xml
 robots.txt
@@ -1441,7 +1450,7 @@ The following files are generated:
 index.html
 locations.html
 blog.html
-post1.html
+blog/*.html
 districts/*.html
 sitemap.xml
 robots.txt
