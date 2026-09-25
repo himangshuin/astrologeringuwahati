@@ -987,13 +987,6 @@ def build_index():
         <p class="cta-note">Same-day online readings available | Evening slots for working professionals</p>
     </div>
 </section>
-
-<div class="map-container">
-    <div class="container">
-        <iframe src="https://maps.google.com/maps?q=Anandapur%20Rd%2C%20Krishnanagar%2C%20Guwahati%2C%20Assam%20781005&t=&z=15&output=embed" width="100%" height="300" style="border:0; border-radius: 24px;" allowfullscreen="" loading="lazy" title="Best Astrologer in Guwahati — studio location map"></iframe>
-    </div>
-</div>
-
 {footer()}'''
     html = page_shell(head_extra, body)
     os.makedirs(ROOT, exist_ok=True)
